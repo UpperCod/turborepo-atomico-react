@@ -1,4 +1,5 @@
 import { render } from "react-dom";
+import "@component/component-1";
 
 function App() {
     return (

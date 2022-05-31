@@ -12,13 +12,10 @@
         "dev": "turbo run dev --parallel"
     },
     "devDependencies": {
-        "turbo": "latest"
+        "turbo": "latest",
+        "@atomico/exports": "latest",
+        "typescript": "latest"
     },
-    "engines": {
-        "npm": ">=7.0.0",
-        "node": ">=14.0.0"
-    },
-    "packageManager": "npm@8.5.0",
     "prettier": {
         "tabWidth": 4,
         "singleQuote": false

@@ -3,11 +3,13 @@
     "type": "module",
     "version": "0.0.0",
     "private": true,
-    "scripts": {},
+    "scripts": {
+        "build": "exports src/brand.tsx --exports"
+    },
     "dependencies": {
         "atomico": "latest"
     },
     "devDependencies": {
-        "tsconfig":"*"
+        "tsconfig": "*"
     }
 }
