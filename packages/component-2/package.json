@@ -11,5 +11,10 @@
     },
     "devDependencies": {
         "tsconfig": "*"
+    },
+    "module": "./dist/brand.js",
+    "exports": {
+        "./brand": "./dist/brand.js",
+        ".": "./dist/brand.js"
     }
 }
