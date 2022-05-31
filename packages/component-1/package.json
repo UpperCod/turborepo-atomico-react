@@ -6,5 +6,8 @@
     "scripts": {},
     "dependencies": {
         "atomico": "latest"
+    },
+    "devDependencies": {
+    "tsconfig":"*"
     }
 }
