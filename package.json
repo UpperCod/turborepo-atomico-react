@@ -1,0 +1,27 @@
+{
+    "name": "turborepo-basic-shared",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "scripts": {
+        "build": "turbo run build",
+        "dev": "turbo run dev --parallel",
+        "lint": "turbo run lint"
+    },
+    "devDependencies": {
+        "turbo": "latest"
+    },
+    "engines": {
+        "npm": ">=7.0.0",
+        "node": ">=14.0.0"
+    },
+    "packageManager": "npm@8.5.0",
+    "prettier": {
+        "tabWidth": 4,
+        "singleQuote": false
+    }
+}

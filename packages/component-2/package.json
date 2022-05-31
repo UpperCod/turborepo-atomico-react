@@ -1,0 +1,10 @@
+{
+    "name": "@component/component-2",
+    "type": "module",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {},
+    "dependencies": {
+        "atomico": "latest"
+    }
+}
