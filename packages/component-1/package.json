@@ -8,6 +8,6 @@
         "atomico": "latest"
     },
     "devDependencies": {
-    "tsconfig":"*"
+        "tsconfig": "*"
     }
 }
