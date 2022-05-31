@@ -4,7 +4,7 @@
     "version": "0.0.0",
     "private": true,
     "scripts": {
-        "build": "exports src/brand.tsx --exports"
+        "build": "exports src/*.{tsx,jsx} --exports"
     },
     "dependencies": {
         "atomico": "latest"
