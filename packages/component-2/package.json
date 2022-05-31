@@ -4,7 +4,8 @@
     "version": "0.0.0",
     "private": true,
     "scripts": {
-        "build": "exports src/*.{tsx,jsx} --exports"
+        "dev": "exports src/*.{tsx,jsx} --exports --analyzer --types --watch",
+        "build": "exports src/*.{tsx,jsx} --exports --analyzer --types"
     },
     "dependencies": {
         "atomico": "latest"
