@@ -5,7 +5,7 @@ function App() {
     return (
         <>
             <h1>React app</h1>
-            <Brand></Brand>
+            <Brand color={1}></Brand>
         </>
     );
 }

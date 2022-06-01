@@ -9,7 +9,8 @@
     },
     "dependencies": {
         "atomico": "latest",
-        "@atomico/react": "latest"
+        "@atomico/react": "latest",
+        "@types/react": "latest"
     },
     "devDependencies": {
         "tsconfig": "*"
