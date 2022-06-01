@@ -36,8 +36,7 @@ brand.props = {
   width: {
     type: String,
     value: "20rem"
-  },
-  show: Boolean
+  }
 };
 var Brand = c(brand);
 customElements.define("component-2", Brand);

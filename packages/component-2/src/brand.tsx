@@ -46,7 +46,6 @@ brand.props = {
         type: String,
         value: "20rem",
     },
-    show: Boolean,
 };
 
 export const Brand = c(brand);
