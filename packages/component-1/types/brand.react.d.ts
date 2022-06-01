@@ -1,0 +1,1 @@
+export const Brand: import("@atomico/react/types/core/create-wrapper").Component<typeof import("@component/component-1/brand").Brand>

@@ -13,8 +13,8 @@
         "dev": "turbo run dev --parallel"
     },
     "devDependencies": {
+        "@atomico/exports": "^0.32.0",
         "turbo": "latest",
-        "@atomico/exports": "latest",
         "typescript": "latest"
     },
     "prettier": {
