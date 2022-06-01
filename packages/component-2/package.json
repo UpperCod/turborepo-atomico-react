@@ -12,5 +12,13 @@
     },
     "devDependencies": {
         "tsconfig": "*"
+    },
+    "peerDependencies": {
+        "@atomico/react": "latest"
+    },
+    "peerDependenciesMeta": {
+        "@atomico/react": {
+            "optional": true
+        }
     }
 }
