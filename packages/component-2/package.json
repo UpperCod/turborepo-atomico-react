@@ -8,17 +8,10 @@
         "build": "exports src/*.{tsx,jsx} --exports --analyzer --types"
     },
     "dependencies": {
-        "atomico": "latest"
+        "atomico": "latest",
+        "@atomico/react": "latest"
     },
     "devDependencies": {
         "tsconfig": "*"
-    },
-    "peerDependencies": {
-        "@atomico/react": "latest"
-    },
-    "peerDependenciesMeta": {
-        "@atomico/react": {
-            "optional": true
-        }
     }
 }
